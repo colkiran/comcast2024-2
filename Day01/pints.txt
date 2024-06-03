@@ -1,0 +1,332 @@
+1. Ordered Dictionary
+
+2. time space complexity and optimization
+
+3. oops, lambdas, decorator
+
+4. threading
+
+5. 
+
+
+Data Structures
+---------------
+
+
+
+Functions
+•	What is Function?
+•	Advantages of functions
+•	Syntax and Writing function
+•	Calling or Invoking function
+•	Classification of Functions
+	No arguments and No return values
+	With arguments and No return values
+	With arguments and With return values
+	No arguments and With return values
+	Recursion
+•	Python argument type functions :
+	Default argument functions
+	Required(Positional) arguments function
+	Keyword arguments function
+	Variable arguments functions
+•	‘pass’ keyword in functions
+•	Lambda functions/Anonymous functions
+	map()
+	filter()
+	reduce()
+•	Nested functions
+•	Non local variables, global variables
+•	Closures
+•	Decorators
+•	Generators
+•	Iterators
+•	Monkey patching
+
+
+Collections
+
+deque
+OrderedDict
+namedtuple()
+Counter
+ChainMap
+defaultdict
+UserString
+UserList, and finally,
+UserDict
+
+Python Modules
+•	Importance of modular programming
+•	What is module
+•	Types of Modules – Pre defined, User defined.
+•	User defined modules creation
+•	Functions based modules
+•	Class based modules
+•	Connecting modules
+•	Import module
+•	From … import
+•	Module alias / Renaming module
+•	Built In properties of module
+
+Packages
+•	Organizing python project into packages
+•	Types of packages – pre defined, user defined.
+•	Package v/s Folder
+•	py file
+•	Importing package
+•	PIP
+•	Introduction to PIP
+•	Installing PIP
+•	Installing Python packages
+•	Un installing Python packages
+
+
+
+OOPs
+•	Procedural v/s Object oriented programming
+•	Principles of OOP – Encapsulation , Abstraction (Data Hiding)
+•	Classes and Objects
+•	How to define class in python
+•	Types of variables – instance variables, class variables.
+•	Types of methods – instance methods, class method, static method
+•	
+•	Object initialization
+•	‘self’ reference variable
+•	‘cls’ reference variable
+•	Access modifiers – private(__) , protected(_), public
+•	AT property class
+•	Property() object
+•	Creating object properties using setaltr, getaltr functions
+•	Encapsulation(Data Binding)
+•	What is polymorphism?
+•	Overriding
+	Method overriding
+	Constructor overriding
+•	Overloading
+	Method Overloading
+	Constructor Overloading
+•	Class re-usability
+•	Composition
+•	Aggregation
+•	Inheritance – single , multi level, multiple, hierarchical and hybrid inheritance and Diamond inheritance
+•	Constructors in inheritance
+•	Object class
+•	super()
+•	Runtime polymorphism
+•	Method overriding
+•	Method resolution order(MRO)
+•	Method overriding in Multiple inheritance and Hybrid Inheritance
+•	Duck typing
+•	Concrete Methods in Abstract Base Classes
+•	Difference between Abstraction & Encapsulation
+•	Inner classes
+•	Introduction
+•	Writing inner class
+•	Accessing class level members of inner class
+•	Accessing object level members of inner class
+•	Local inner classes
+•	Complex inner classes
+•	Case studies
+
+
+Exception Handling & Types of Errors
+•	What is Exception?
+•	Why exception handling?
+•	Syntax error v/s Runtime error
+•	Exception codes – AttributeError, ValueError, IndexError, TypeError…
+	Handling exception – try except block
+	Try with multi except
+	Handling multiple exceptions with single except block
+•	Finally block
+	Try-except-finally
+	Try with finally
+	Case study of finally block
+•	Raise keyword
+	Custom exceptions / User defined exceptions
+	Need to Custom exceptions
+•	Case studies
+
+
+Regular expressions
+•	Understanding regular expressions
+•	String v/s Regular expression string
+•	“re” module functions
+•	Match()
+•	Search()
+•	Split()
+•	Findall()
+•	Compile()
+•	Sub()
+•	Subn()
+•	Expressions using operators and symbols
+•	Simple character matches
+•	Special characters
+•	Character classes
+•	Mobile number extraction
+•	Mail extraction
+•	Different Mail ID patterns
+•	Data extraction
+•	Password extraction
+•	URL extraction
+•	Vehicle number extraction
+•	Case study
+
+
+Python Data Base Communications(PDBC)
+•	Introduction to DBMS applications
+•	File system v/s DBMS
+•	Communicating with MySQL
+•	Python – MySQL connector
+•	connector module
+•	connect() method
+•	Oracle Database
+•	Install cx_Oracle
+•	Cursor Object methods
+•	execute() method
+•	executeMany() method
+•	fetchone()
+•	fetchmany()
+•	fetchall()
+•	Static queries v/s Dynamic queries
+•	Transaction management
+
+File & Directory handling
+•	Introduction to files
+•	Opening file
+•	File modes
+•	Reading data from file
+•	Writing data into file
+•	Appending data into file
+•	Line count in File
+•	CSV module
+•	Creating CSV file
+•	Reading from CSV file
+•	Writing into CSV file
+•	Object serialization – pickle module
+•	XML parsing
+•	JSON parsing
+
+Python Logging
+•	Logging Levels
+•	implement Logging
+•	Configure Log File in over writing Mode
+•	Timestamp in the Log Messages
+•	Python Program Exceptions to the Log File
+•	Requirement of Our Own Customized Logger
+•	Features of Customized Logger
+
+
+Pyunit
+•	What is Unit Testing?
+•	Python Unit Testing Techniques
+•	Python Unit Testing Framework
+•	Unit Testing with PyUnit
+•	Basic example
+•	Command-Line Interface
+•	Command-line options
+•	Test Discovery
+•	Organizing test code
+•	Re-using old test code
+•	Skipping tests and expected failures
+•	Distinguishing test iterations using subtests
+•	Classes and functions
+•	Test cases
+•	Grouping tests
+•	Loading and running tests
+•	load_tests Protocol
+•	Class and Module Fixtures
+•	setUpClass and tearDownClass
+•	setUpModule and tearDownModule
+•	Signal Handling
+
+Multithreaded programming
+• Concurrency Vs Parallelism: Choosing generator/coroutines Vs Threads/Processes
+• Introduction to threads and processes.
+• Creating and managing threads.
+• An overview on threading module.
+• Using the Thread class and the Timer class.
+• Active threads Vs. Daemon threads.
+• Synchronization amongst threads:
+o Using Lock and RLock for mutual exclusion.
+o Using Condition and Event for wait/notify patterns.
+o Using Semaphore and BoundedSemaphore for bandwidth management.
+• Implementing Producer/Consumer patterns using Queue.
+• Implementing thread pool.
+• GIL and its practical implications on SMP-class architectures.
+• Using PyPy to overcome the limitations of thread implementation in CPython.
+
+Multiprocessing using Python
+• Multitasking using multiprocessing.Process
+• Process Vs Thread: performance and design implications.
+• Sharing/Exchanging data between processes
+o Pipe and Queue
+o Value and Array
+o Using Manager for shared list and dictionaries
+o Memory-Mapped Files (mmap module)
+• Synchronization among processes
+o Lock, RLock, Condition objects
+o Semaphore and BoundedSemaphore objects
+• Using multiprocessing.Pool for parallel map algorithms
+• Implementing RPC using multiprocessing.manager module.
+
+
+Marshalling and Data Persistence
+• Marshalling and Unmarshalling objects using pickle, cPickle and json modules
+• Data persistence using shelve module
+• Parsing, processing and storing with standard file formats
+o CSV using csv module
+o XML using ElementTree
+o JSON using json module
+o YAML using PyYAML module
+o INI/CFG parsing using configparser module
+
+
+Functions
+---------
+1. create a function and a how do we call a function
+
+
+Lambdas
+-------
+1. Anonymous function - function without a name
+2. with one expression
+
+result of expression = lambda x, y, a, b,: expression_with_variables
+
+lambdas are used with
+
+1. map   
+
+2. filter - expression implemented here should return a true or a false
+
+
+3. reduce (functools)
+
+l1 = [3, 8, 5, 7, 10, 4, 6, 9]
+
+x = 3
+y = 8
+
+x > y, return x else y
+
+x = 8
+y = 5
+
+x = 8
+y = 7
+
+x = 8
+y = 10
+
+Comprehension (iterating through a collection using lambda syntax)
+--------------
+list comprehension
+dict comprehension
+
+
+
+
+
+
+
