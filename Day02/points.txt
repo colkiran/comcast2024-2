@@ -1,0 +1,36 @@
+Functions
+---------
+scope of a variable
+-------------------
+1. local
+2. global
+3. non local
+
+
+Local - Lexical variable - looses their scope out of the block of code
+
+Function Decorator
+------------------
+
+Welcome ----->  Sachin
+
+Welcome =====>> Sachin
+
+
+command to create virtual Env
+
+python -m virtualenv myenv
+
+
+to activate the virtual env
+---------------------------
+myenv\Scripts\activate
+
+
+
+
+
+
+
+
+
