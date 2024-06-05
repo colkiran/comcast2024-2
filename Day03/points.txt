@@ -1,0 +1,62 @@
+OOPS
+----
+What is oops and why do we need oops?
+
+1. Encapsulation
+2. Inheritance
+3. Abstraction
+4. Polymorphism
+
+
+Python supports opps same as C++
+
+1. can create a class same as C++
+2. can create an object of a class that can access all the methods in the class same as C++
+
+
+Class Method
+-------------
+
+In python we have two operators that is overloaded by default
+
++ - addition and concatenation
+
+* - multiplication and to print a string n number of times
+
+every operator in python is associated with a methods - __add__, __sub__, __mul__
+we have slang for these methods - magic methods
+
+
+@total_ordering
+---------------
+we should have overloaded two comparison operators 
+
+in which one of the operator should be ==, __eq__ (comparison) mandatory
+
+
+Overload all arithmetic operators
+---------------------------------
+a. add
+b. sub
+c. mul
+d. div
+e. floor_div
+
+
+getter_method	- used to get the attributes of the class
+setter_method	- used to change the attributes of the class
+deleter_method  - used to delete attributes or set the value of the attributes to zero
+
+
+
+
+
+
+
+
+
+
+
+
+
+
