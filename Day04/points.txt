@@ -1,0 +1,84 @@
+OOPS
+-----
+getter, setter and delete methods to a property
+
+static methods
+--------------
+these methods are called by objects of the class
+
+def fun(self):
+   pass
+
+
+these methods are called with class name
+def fun(cls):
+   pass
+
+static methods will not take any arguments
+
+static methods can be created to implement some utilities
+
+1. Inheritance
+2. multiple inheritance
+3. multi_level_inheretance
+
+
+Abstract Class
+--------------
+abs module - ABS, abstractmethod
+
+
+
+Packages and Modules
+--------------------
+
+Modules are the same as Libraries, any python file can be considered as a module. modules don't have special extension, python modules also end with .py
+
+
+Packages are folders or directories that have modules stored in it, only when a module is stored in a folder we call it as a package. Packages are used to resolve ambiguity of names
+
+
+import mymodule
+---------------
+
+look for libraries in environment variable path or sys.path, if libraries are existing then import the necessary libraries
+
+looks for .pth file in the native path 
+C:\Users\Kiran\AppData\Local\Programs\Python\Python311
+where python.exe is present.
+
+if .pth file is present the looks for valid path and imports the libraries from that path
+
+mymodule.py ->  mymodule.cpython_311.pyc and gets stored on __pycache__ folder
+
+python compares the date and time of creation / modification of .py and .pyc file, it expects the .pyc file to have the latest date and time
+
+
+import mymodule
+import mymodule as m
+from mymodule import greet
+from mymoduel import Employee
+
+import mypackage.mymodule
+from mypackage.mymodule import greet
+from mypackage.mymodule import Employee
+
+from mypackage import mymodule
+
+from mypackage import *
+-----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
