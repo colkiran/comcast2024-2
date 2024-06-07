@@ -1,0 +1,22 @@
+2024-06-07 10:57:02,932 : DEBUG : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:57:02,932 : INFO : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:57:02,932 : WARNING : root : the difference of 8 and 20 is :0.4
+2024-06-07 10:57:02,932 : ERROR : root : <class 'ZeroDivisionError'>
+2024-06-07 10:57:02,932 : CRITICAL : root : division by zero
+2024-06-07 10:57:22,771 : DEBUG : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:57:22,771 : INFO : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:57:22,771 : WARNING : root : the difference of 8 and 20 is :0.4
+2024-06-07 10:57:22,771 : ERROR : root : <class 'ZeroDivisionError'>
+2024-06-07 10:57:22,771 : CRITICAL : root : division by zero
+2024-06-07 10:58:52,368 : DEBUG : root : -----------------------562166.8200251-----------------------
+2024-06-07 10:58:52,369 : DEBUG : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:58:52,369 : INFO : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:58:52,369 : WARNING : root : the difference of 8 and 20 is :0.4
+2024-06-07 10:58:52,369 : ERROR : root : <class 'ZeroDivisionError'>
+2024-06-07 10:58:52,369 : CRITICAL : root : division by zero
+2024-06-07 10:59:07,551 : DEBUG : root : -----------------------562182.0036233-----------------------
+2024-06-07 10:59:07,551 : DEBUG : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:59:07,551 : INFO : root : the difference of 20 and 8 is :2.5
+2024-06-07 10:59:07,551 : WARNING : root : the difference of 8 and 20 is :0.4
+2024-06-07 10:59:07,552 : ERROR : root : <class 'ZeroDivisionError'>
+2024-06-07 10:59:07,552 : CRITICAL : root : division by zero

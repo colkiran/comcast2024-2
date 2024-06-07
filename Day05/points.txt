@@ -1,0 +1,51 @@
+Logging Module
+--------------
+
+Error Level
+-----------
+notset		-	0
+debug		-	10 - detailed information presented typically when 			     diagnosing a problem
+
+info		-	20 - code is working as expected we confirm it
+
+warnings	-	30 - code is not working as expected 
+
+error		-	40 - whenever there is a serious error
+
+critical	-	50 - code unable to continue executing due to error
+
+logging module is packed with constants, classes and items
+
+constant - entire word in capitals
+
+class	 - capitalized word
+
+items 	 - lower case word
+
+Logger.info(msg)
+Logger.warning(msg)
+Logger.critical(msg)
+
+iterators, comprehensions and generators
+-----------------------------------------
+
+iterable objects
+-----------------
+
+Threads
+-------
+What is a thread?
+a separate flow of execution
+
+ 
+
+
+
+
+
+
+
+
+
+
+
