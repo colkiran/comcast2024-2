@@ -1,0 +1,14 @@
+Pytest
+------
+Python based testing framework - used to test API, Database and UI
+
+1. we can run multiple tests in parallel which reduces the execution time
+
+2. it has its own way to detect the test files and test functions automatically
+
+3. it allows us to skip a subset of tests during execution
+
+4. pytest allows us to run a subset of the entire test suite
+
+5. pytest is an open source
+
